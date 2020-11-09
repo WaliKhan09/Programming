@@ -3,17 +3,17 @@
 int main(){
 
     /*Variable declaraton*/
-    int num1, num2, sum;
+    int num1, num2, sub;
 
     /*Appointing value*/
-    num1 = 20;
+    num1 = 50;
     num2 = 30;
 
-    /*Adding values*/
-    sum = num1 + num2;
+    /*Subtracting values*/
+    sub = num1 - num2;
 
     /*Printing the answer*/
-    printf("The sum of %d and %d is : %d", num1, num2, sum);
+    printf("Output of %d - %d is : %d", num1, num2, sub);
 
     return 0;
 }
