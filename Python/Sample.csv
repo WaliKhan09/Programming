@@ -1,11 +1,9 @@
-Title , Author , ISBN13 , Pages
-1984 , George Orwell , 978-0451524935 , 268
-Animal Farm , George Orwell , 978-0451526342 , 144
-Brave New World , Aldous Huxley , 978-0060929879 , 288
-Fahrenheit 451 , Ray Bradbury , 978-0345342966,208
-Jane Eyre , Charlotte Brontë , 978-0142437209 , 532
-Wuthering Heights , Emily Brontë , 978-0141439556,416
-Agnes Grey , Anne Brontë , 978-1593083236 , 256
-Walden , Henry David Thoreau , 978-1420922615 , 156
-Walden Two , B. F. Skinner , 978-0872207783 , 301
-" Eats , Shoots & Leaves " , Lynne Truss , 978-1592400874 , 209
+Title,Author,Pages
+Animal Farm,George Orwell,144
+Brave New World,Aldous Huxley,288
+Fahrenheit 451,Ray Bradbury,208
+Jane Eyre,Charlotte Brontë,532
+Wuthering Heights,Emily Brontë,420
+Agnes Grey,Anne Brontë,259
+Walden,Henry David Thoreau,155
+Walden Two,B. F. Skinner,300
