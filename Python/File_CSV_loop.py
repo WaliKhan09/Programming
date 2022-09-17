@@ -6,20 +6,23 @@ import os
 import csv
 
 # Opening CSV file in a variable.
-with open("Book.csv", newline='') as f:
+with open("Python\\Colors.csv", newline='') as f:
 
     # Reading CSV file
     ereader = csv.DictReader(f)
 
     # Initializing loop to get CSV file data in a variable.
     for row in ereader:
-        b = row['color']
+
+        # Getting values in variables
+        a = row['name']
+        b = row['hex']
 
         # Initializing loop for the files in the defined folder
-        for filename in os.listdir("/Users/walikhan/Work/Python_YouTube_Auto/vid"):
+        for filename in os.listdir("Python\\Sample_videos"):
 
             # Applying condition to check if file name is equal to CSV row data or not.
-            if ((filename.endswith(".mp4")) & (filename[:-4] == b)): # here "(filename.endswith(".mp4"))" is used for checking for a particular file type.
-                print(filename)
+            if ((filename.endswith(".mp4")) & (filename[:-4] == b[1:])): # here "(filename.endswith(".mp4"))" is used for checking for a particular file type.
+                print("File named",filename,"found in dir.")
             else:
                 continue
