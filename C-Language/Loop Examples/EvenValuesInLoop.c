@@ -14,7 +14,7 @@ int main(){
     printf("Enter the last value :");
     scanf("%d", &end);
 
-    /*Applyiny loop and printing even numbers between enterd value*/
+    /*Initializing loop and printing even numbers between enterd value*/
     for (even = start; even <= end; even++){
         if(even%2 == 0)
         printf("%2d\n", even);

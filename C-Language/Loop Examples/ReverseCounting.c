@@ -15,7 +15,7 @@ int main(){
     printf("Enter the last number :");
     scanf("%d", &end);
 
-    /*Applyint the condition and printing the numbers in reverse order*/
+    /*Initializing loop and printing the numbers in reverse order*/
     for (a = end; a >= start; a--)
     {
         printf("%d \n", a);

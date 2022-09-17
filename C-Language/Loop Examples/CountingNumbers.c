@@ -15,7 +15,7 @@ int main(){
    printf("Enter the last number :");
    scanf("%d", &end);
 
-   /*Applying the condition and printing the numbers*/
+   /*Initializing loop and printing the numbers*/
    for(i = start; i <= end; i++){ 
       printf("%2d\n", i);
    }

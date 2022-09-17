@@ -15,7 +15,7 @@ int main(){
    printf("Enter the first number :");
    scanf("%d", &end);
 
-   /*Applying the conditions and printing the table*/
+   /*Initializing loop and printing the table*/
    for(i = start; i <= end; i++) {
       count = i;
       

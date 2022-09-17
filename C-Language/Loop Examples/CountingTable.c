@@ -15,7 +15,7 @@ int main(){
    printf("Enter the first number :");
    scanf("%d", &l);
 
-   /*Applying the conditions and printing*/
+   /*Initializing loop and printing*/
    for(i = k; i <= 10; i++){
       for(j = i; j <= l; j += 10 )
          printf(" %3d", j);
